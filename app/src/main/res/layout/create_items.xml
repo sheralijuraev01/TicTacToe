@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_player_info"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/firstPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/create_standard_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/firtPlayerNameInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter first player name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/create_ts"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/create_edit_margin_hor"
+            android:layout_marginTop="@dimen/create_standard_margin"
+            android:background="@drawable/backeditext"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/create_edit_icon_size"
+                android:layout_height="@dimen/create_edit_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/create_edit_icon_margin_st"
+                android:padding="4dp"
+                android:src="@drawable/x" />
+
+            <EditText
+                android:id="@+id/firtPlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/create_edit_height"
+                android:background="@drawable/backeditext"
+                android:paddingHorizontal="@dimen/create_edit_padding_hor"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/create_standard_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter second player name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/create_ts" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/create_edit_margin_hor"
+            android:layout_marginTop="@dimen/create_standard_margin"
+            android:background="@drawable/backeditext"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/create_edit_icon_size"
+                android:layout_height="@dimen/create_edit_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/create_edit_icon_margin_st"
+                android:padding="3dp"
+                android:src="@drawable/o" />
+
+            <EditText
+                android:id="@+id/secondPlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/create_edit_height"
+                android:background="@drawable/backeditext"
+                android:paddingHorizontal="@dimen/create_edit_padding_hor"
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/create_btn_margin"
+        android:background="@drawable/button_one"
+        android:text="start game"
+        android:textColor="@color/white" />
+
+</LinearLayout>

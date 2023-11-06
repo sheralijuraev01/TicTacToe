@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/SecondaryColor"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/loser_name"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="@dimen/dialog_standard_margin"
+            android:text="Person 1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_person_name_ts"
+
+            android:textStyle="bold" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lose_dialog_lottie_height"
+            android:layout_marginHorizontal="@dimen/lose_dialog_lottie_margin_hor"
+            android:layout_marginTop="@dimen/lose_dialog_lottie_margin_top"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/lost"
+
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dialog_standard_margin"
+            android:text="You lost!"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_status_ts"
+            android:textStyle="bold" />
+
+
+        <ImageView
+
+            android:id="@+id/lose_restart"
+            android:layout_width="@dimen/dialog_restart_btn_size"
+            android:layout_height="@dimen/dialog_restart_btn_size"
+            android:layout_marginBottom="@dimen/dialog_standard_margin"
+            android:src="@drawable/restart" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+

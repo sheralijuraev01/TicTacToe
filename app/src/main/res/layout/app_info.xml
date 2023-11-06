@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroun_topmenu_button"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/about_standard_margin"
+        android:layout_marginTop="@dimen/about_standard_margin"
+        android:layout_marginEnd="@dimen/about_standard_margin"
+        android:text="App Info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/about_title_ts"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/about_desc_margin_hor"
+        android:layout_marginTop="@dimen/about_desc_margin"
+        android:layout_marginBottom="@dimen/about_desc_margin"
+        android:text="Tic-tac-toe is a fun game that you can play any time and anywhere as long as you have a piece of paper, a pencil, and an opponent. Tic-tac-toe is a zero-sum game, which means that if both players are playing their best, then neither player will win. However, if you learn how to play tic-tac-toe and master some simple strategies, then you'll be able to not only play but win the majority of the time. If you want to know how to play tic-tac-toe, then see Step 1 to get started."
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/about_desc_ts" />
+
+
+</LinearLayout>

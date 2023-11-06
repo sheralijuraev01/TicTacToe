@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/backgoundplayerinformation.xml" value="0.139" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/backgroun_topmenu_button.xml" value="0.139" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/background_tictactoe.xml" value="0.139" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/backgroundgameinfo.xml" value="0.139" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/backgroundgameinfo_move.xml" value="0.139" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/button_four.xml" value="0.1" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/button_three.xml" value="0.1" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/drawable/winbackground.xml" value="0.139" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/activity_game.xml" value="0.22" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/app_info.xml" value="0.153125" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/create_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/draw_finish_game_condition.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/PracticLessons/TicTacGame/app/src/main/res/layout/win_finish_game_condition.xml" value="0.153125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

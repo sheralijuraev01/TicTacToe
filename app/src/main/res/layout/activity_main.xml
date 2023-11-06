@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/person_button"
+        android:layout_width="@dimen/main_btn_weight"
+        android:layout_height="@dimen/main_btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/button_one"
+        android:text="Person vs Person"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_btn_ts" />
+
+    <Button
+        android:id="@+id/cpu_button"
+        android:layout_width="@dimen/main_btn_weight"
+        android:layout_height="@dimen/main_btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/button_three"
+        android:text="Person vs CPU"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_btn_ts" />
+    <Button
+        android:id="@+id/app_info"
+        android:layout_width="@dimen/main_btn_weight"
+        android:layout_height="@dimen/main_btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/button_two"
+        android:text="App Info"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_btn_ts" />
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="@dimen/main_btn_weight"
+        android:layout_height="@dimen/main_btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/button_four"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_btn_ts" />
+
+
+</LinearLayout>
