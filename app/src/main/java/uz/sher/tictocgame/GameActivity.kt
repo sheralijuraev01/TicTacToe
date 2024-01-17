@@ -224,10 +224,9 @@ class GameActivity : AppCompatActivity() {
         val winner = viewWin.findViewById<TextView>(R.id.winner_name)
         winner.text = winnerName
         builder.setView(viewWin)
-        val dialog: AlertDialog
-        dialog = builder.create()
+        val dialog: AlertDialog = builder.create()
         dialog.setCanceledOnTouchOutside(false)
-        dialog.getWindow()?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
         dialog.show()
         button.setOnClickListener {
             gameOver()
@@ -242,10 +241,9 @@ class GameActivity : AppCompatActivity() {
         val loser = viewLose.findViewById<TextView>(R.id.loser_name)
         loser.text = loserName
         builder.setView(viewLose)
-        val dialog: AlertDialog
-        dialog = builder.create()
+        val dialog: AlertDialog = builder.create()
         dialog.setCanceledOnTouchOutside(false)
-        dialog.getWindow()?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
         dialog.show()
         button.setOnClickListener {
             gameOver()
@@ -260,9 +258,8 @@ class GameActivity : AppCompatActivity() {
         val name = viewDraw.findViewById<TextView>(R.id.winner_name)
         name.text = ""
         builder.setView(viewDraw)
-        val dialog: AlertDialog
-        dialog = builder.create()
-        dialog.getWindow()?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
+        val dialog: AlertDialog = builder.create()
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
         dialog.setCanceledOnTouchOutside(false)
         dialog.show()
         button.setOnClickListener {
